@@ -22,3 +22,5 @@ For a t-test on the total lots, we would fail to reject our null hypothesis at a
 ![Resources/multi-t-tests](Resources/multi-t-tests.png)
 
 When separating the data by lots we would also fail to reject our null hypothesis for both Lots 1 and 2. Our p-values for these lots equal 1 and 0.6072. However, we can reject our null hypothesis for Lot 3 given that the p-value is 0.04168. The mean of the Lot 3 sample is also significantly smaller than the means for Lots 1 & 2. Additionally, the confidence interval for Lot 3 does not include the population mean of 1500. 
+
+## Study Design: MechaCar vs Competition
