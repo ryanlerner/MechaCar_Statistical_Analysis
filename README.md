@@ -9,9 +9,16 @@
 
 
 ## Summary Statistics on Suspension Coils
+![Resources/total_summary](Resources/total_summary.png)
+![Resources/lot_summary](Resources/lot_summary.png)
+
 Based on the summary statistics for our total_summary chart, the varaince of the suspension coils does not exceed 100 pounds per square inch, thus meeting the design specification for all manufacturing lots. However, when this data is separated by lot, the third lot has a significantly higher variance than Lots 1 & 2, and exceeds the variance of 100 pounds per square inch by over 70 pounds. With this variance, the third lot may not meet the necessary design specifications.
 
 ## T-Tests on Suspension Coils
+![Resources/total-t-test](Resources/total-t-test.png)
+
 For a t-test on the total lots, we would fail to reject our null hypothesis at a significance level of 0.05. The p-value for this t-test is 0.06. 
+
+![Resources/multi-t-tests](Resources/multi-t-tests.png)
 
 When separating the data by lots we would also fail to reject our null hypothesis for both Lots 1 and 2. Our p-values for these lots equal 1 and 0.6072. However, we can reject our null hypothesis for Lot 3 given that the p-value is 0.04168. The mean of the Lot 3 sample is also significantly smaller than the means for Lots 1 & 2. Additionally, the confidence interval for Lot 3 does not include the population mean of 1500. 
