@@ -24,3 +24,7 @@ For a t-test on the total lots, we would fail to reject our null hypothesis at a
 When separating the data by lots we would also fail to reject our null hypothesis for both Lots 1 and 2. Our p-values for these lots equal 1 and 0.6072. However, we can reject our null hypothesis for Lot 3 given that the p-value is 0.04168. The mean of the Lot 3 sample is also significantly smaller than the means for Lots 1 & 2. Additionally, the confidence interval for Lot 3 does not include the population mean of 1500. 
 
 ## Study Design: MechaCar vs Competition
+Another useful statistical study for the MechaCar could be to analyze how certain variables affect the safety rating of the car. For families that want to purchase a vehicle, safety can often be the most crucial factor. In this study, we can perform a linear regression on how these various factors correlate with the safety rating for a car. This will help MechaCar determine which variables are most important in releasing a safe car. We can include the following metrics in this analysis: 
+  - Dependent Variable: Safety Rating
+  - Independent Variables: Vehicle length, vehicle weight, spoiler angle
+  - Null Hypothesis: The vehicle safety rating is not affected by differences in vehicle length, weight or spoiler angle. 
