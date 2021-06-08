@@ -28,3 +28,4 @@ Another useful statistical study for the MechaCar could be to analyze how certai
   - Dependent Variable: Safety Rating
   - Independent Variables: Vehicle length, vehicle weight, spoiler angle
   - Null Hypothesis: The vehicle safety rating is not affected by differences in vehicle length, weight or spoiler angle. 
+  - We will need to collect data for the safety ratings on different makes/models of cars in order to see if these independent variables make a difference in how safe a car is.
